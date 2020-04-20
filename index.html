@@ -18,7 +18,7 @@
 
 
 	<body>
-		<nav class="navbar navbar-default">
+		<div class="navbar navbar-default">
 			<div class="container-fluid navbar-custom">
 				<div class="row">
 					<div class="navbar-header">
@@ -32,33 +32,37 @@
 					</div>
 				</div>
 
-			</div class ="navbar-toggler collapsed" id = "#bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right navbar-right-custom">
-					<li class="dropdown">
-						<a href = "#" class = "dropdown-toggle"  data-toggle = "droptown" role = "button" aria-expanded="false">>Plots<span class="caret"></span></a> 
-						<ul class="dropdown-menu">
-							<li><a href="visualization/temp.html">Max Temperature</a></li>
-							<li><a href="visualization/humidity.html">Humidity</a></li>
-							<li><a href="visualization/cloudiness.html">Cloudiness</a></li>
-							<li><a href="visualization/wind.html">Wind Speed</a></li>
+			
+			
+				<div class=“collapse navbar-collapse” id=“bs-example-navbar-collapse-1">
+					<ul class=“nav navbar-nav navbar-right navbar-right-custom”>
+						<li class=“dropdown”>
+						<a href=“#” class=“dropdown-toggle” data-toggle=“dropdown” role=“button” aria-haspopup=“true” aria-expanded=“false”>Plots <span class=“caret”></span></a>
+						<ul class=“dropdown-menu”>
+							<li><a href=“visualizations/temp.html”>Max Temperature</a></li>
+							<li><a href=“visualizations/humidity.html”>Humidity</a></li>
+							<li><a href=“visualizations/cloudiness.html”>Cloudiness</a></li>
+							<li><a href=“visualizations/wind.html”>Wind</a></li>
 						</ul>
-					</li>
-					<li><a href="Comparison.html">Comparison</a></li>
-					<li><a href="Data.html">Data</a></li>
-				</ul>
+					 	</li>
+						<li><a href=“comparison.html”>Comparison</a></li>
+						<li><a href=“data.html”>Data</a></li>
+					</ul>
+				</div>
 			</div>
 		</nav>
+
+				
 			
-		
 
 		<div class="container">
 			<section class="row">
 				<div class="col-md-8">
 					<article class="description-content">
 						<h1 class="title">Summary: Latitude vs. X</h1>
-						<img src="Resource/assets/Fig1.png" alt="Latitude vs. Max Temperature"></p>
+						<img src="images/Fig1.png" alt="Latitude vs. Max Temperature"></p>
 						<p>The purpose of this project was to analyze how weather changes as you get closer to the equater. To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.
-						<p> class="category">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and correlations witnessed.</p>
+						<p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and correlations witnessed.</p>
 					</article>
 				</div>
 
@@ -66,10 +70,10 @@
 					<section>
 						<h2 class="title">Visualizations</h2>
 						<div class="images">
-							<a href="visualization/temp.html"><img src="Resource/assets/Fig1.png" alt="Latitude vs. Max Temperature"></a>
-							<a href="visualization/humidity.html"><img src="Resource/assets/Fig2.png" alt="Latitude vs. Humidity"></a>
-							<a href="visualization/cloudiness.html"><img src="Resource/assets/Fig3.png" alt="Latitude vs. Cloudiness"></a>
-							<a href="visualization/wind.html"><img src="Resource/assets/Fig4.png"alt="Latitude vs. Wind Speed"></a>
+							<a href="Visualization/temp.html"><img src="images/Fig1.png" alt="Latitude vs. Max Temperature"></a>
+							<a href="Visualization/humidity.html"><img src="images/Fig2.png" alt="Latitude vs. Humidity"></a>
+							<a href="Visualization/cloudiness.html"><img src="images/Fig3.png" alt="Latitude vs. Cloudiness"></a>
+							<a href="Visualization/wind.html"><img src="images/Fig4.png."alt="Latitude vs. Wind Speed"></a>
 						</div>
 					</section>
 				</div>
@@ -80,9 +84,11 @@
 
 		
 		
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js”></script>
+		<script type=“text/javascript” src=“https://code.jquery.com/jquery-2.1.4.min.js”></script>
 
-		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js”></script>
+		<script src=“https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js”></script>
+
+
 
 	</body>
 </html>
