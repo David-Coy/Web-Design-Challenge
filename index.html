@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Latitude Page</title>
+    <title>Lattitude Page</title>
 
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
 
     <link rel="stylesheet" href="css/styles.css" media="screen">
 
-  </head>
+    </head>
 
-  <body>
+  <body></body> 
     <!-- Start of navbar -->
     <nav class="navbar navbar-default">
       <div class="container-fluid navbar-custom">
@@ -27,7 +27,7 @@
               <span class="icon-bar"></span>
             </button>
             <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Latitude</a>
+              <a class="navbar-brand" href="#" id="logo"style="background-color:green" >Lattitude</a>
             </div>
           </div>
 
@@ -51,33 +51,65 @@
         </div>
 
     </nav>
-    <div class="container">
+
+      <div class="container mt-4">
+       <div class="jumbotron">   
         <section class="row">
             <div class="col-md-8">
                 <article class="description-content">
-                    <h1 class="title">Summary: Latitude vs. X</h1>
-                    <img src="images/Fig1.png" alt="Latitude vs. Max Temperature" id = "description-image"> 
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equater. To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                    <h2 class="text-success mb-3 ">Summary: Lattitude vs. X</h2> 
+                    <p class="text-justify text-muted">
+                      <img src="images/Fig1.png" style="width:230px;height:230px"class="images-fluid float-left" mr-4 ml3 alt="Lattitude vs. Max Temperature" id = "description-image">
+                      The purpose of this project was to analyze how weather changes as you get closer to the equater. 
+                      To accomplish this analysis. we first pulled data from the OpenWeatherMapAPI to assemble a dataset on over 500 cities.
+                      <br>
+                      <br>
+                      After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+                      Factors we looked at included:temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis,as well as explanations and descriptions of any trends and correlations witnessed.</p>
                 </article>
             </div>
+
+
+
+
+
+            
             <div class = "col-md-4">
                 <section>
-                    <h2 class="title">Visualizations</h2>
+                    <h2 class="text-success">Visualizations</h2>
                     <div class="images">
-                        <a href="visualization/temp.html"><img src="images/Fig1.png" alt="Latitude vs. Max Temperature"></a>
-                        <a href="visualization/humidity.html"><img src="images/Fig2.png" alt="Latitude vs. Humidity"></a>
-                        <a href="visualization/cloudiness.html"><img src="images/Fig3.png" alt="Latitude vs. Cloudiness"></a>
-                        <a href="visualization/wind.html"><img src="images/Fig4.png"alt="Latitude vs. Wind Speed"></a>
+                        <a href="visualization/temp.html"><img src="images/Fig1.png"  style="width:150px;height:150px"  alt="Lattitude vs. Max Temperature"></a>
+                        <a href="visualization/humidity.html"><img src="images/Fig2.png"  style="width:150px;height:150px" alt="Lattitude vs. Humidity"></a>
+                        <a href="visualization/cloudiness.html"><img src="images/Fig3.png"  style="width:150px;height:150px" alt="Lattitude vs. Cloudiness"></a>
+                        <a href="visualization/wind.html"><img src="images/Fig4.png" style="width:150px;height:150px" alt="Lattitude vs. Wind Speed"></a>
                     </div>
                 </section>
             </div>
         </section>
-    </div>
+       </div> 
+      </div>
 
+    </div> 
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Footer Section -->
+    <footer>
+      <div class = "text-center"style="background-color:green" > &copy; Copyright Ekin Kaplan 2020 </div>
+    </footer>
     </body>
 </html>
