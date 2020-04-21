@@ -1,29 +1,6 @@
 # WebVisualizations
 Web Visualization Dashboard (Latitude)
 
-Background
-Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
-
-
-Before You Begin
-
-
-Create a new repository for this project called Web-Design-Challenge. Do not add this work to an existing repository.
-
-
-Clone the new repository to your computer.
-
-
-Inside your local git repository, create a directory for the web challenge. Use a folder name to correspond to the challenge: WebVisualizations.
-
-
-Add your html files to this folder as well as your assets, Resources and visualizations folders.
-
-
-Push the above changes to GitHub or GitLab.
-
-
-Deploy to GitHub pages.
 
 
 
@@ -91,45 +68,5 @@ Be sure your website works at all window widths/sizes.
 Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
 
 
-Bonuses
-
-Use a different dataset! The requirements above still hold, but make it your own.
-Use a bootstrap theme to customize your website. You may use a tool like Bootswatch. Make it look snazzy, give it some attitude. If using this, be sure you also meet all of the requirements listed above.
-Add extra visualizations! The more comparisons the better, right?
-Use meaningful glyphicons next to links in the header.
-Have visualization navigation on every visualizations page with an active state. See the screenshots below.
 
 
-Screenshots
-This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
-
-Landing page
-Large screen:
-
-Small screen:
-
-￼
-
-Comparisons page
-Large screen:
-
-Small screen:
-
-
-Data page
-Large screen:
-
-Small screen:
-
-
-Visualization pages
-You'll build four of these, one for each visualization. Here's an example of one:
-Large screen:
-
-Small screen:
-
-
-Navigation menu
-Large screen:
-
-Small screen:
